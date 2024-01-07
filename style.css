@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.buttons button {
+    border: none;
+    background-color: cadetblue;
+    padding: 8px 15px 8px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+
+.buttons button:hover {
+    background-color: rgb(82, 136, 138);
+}
+
+@media (max-width: 600px) {
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
